@@ -11,7 +11,15 @@ $(document).ready(function () {
         
         // on construit l'objet contenant le tout pour insertion dans le json
         var date = new Date();
-        var chardate = date.getDate()+"/"+date.getMonth()+"/"+date.getFullYear();
+	var daydate = date.getDate();
+	if (daydate.toString().length == 1){
+		daydate="0"+daydate;
+	}
+	var monthdate = date.getMonth();
+	if (monthdate.toString().length == 1){
+		monthdate="0"+monthdate;
+	}
+        var chardate = daydate+"/"+monthdate+"/"+date.getFullYear();
         var obj = {};
         obj["author"] = localStorage.getItem("userlogged");
         obj["date"] = chardate;

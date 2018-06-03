@@ -32,9 +32,8 @@ $(document).ready(function () {
     $.getJSON('billets.json', function (artlist) {
         if (localStorage.getItem("storedartlist") == null) {
             localStorage.setItem("storedartlist", JSON.stringify(artlist));
-        } else {
-            var localartlist = localStorage.getItem("storedartlist");
         }
+        var localartlist = localStorage.getItem("storedartlist");
         localartlist = JSON.parse(localartlist);
         $('.artlist').empty;
         for (var i = 0; i < localartlist.billets.length; i++) {
