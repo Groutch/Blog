@@ -1,6 +1,6 @@
 .container{
 	width: 50%;
-	border-style: inset;
+	/border-style: inset;
 	padding-top: 10px;
 	padding-right: 25px;
 }

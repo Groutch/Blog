@@ -29,7 +29,7 @@ $(document).ready(function () {
         $('.artlist').empty;
         for (var i = 0; i < artlist.billets.length; i++) {
             $('.artlist').append(`<div class="billet" id="art${i}">
-    <h2>${artlist.billets[i].title}</h2>
+    <h3>${artlist.billets[i].title}</h3>
     ${artlist.billets[i].body}
     <footer class="text-right">
         ${artlist.billets[i].author} - ${artlist.billets[i].date}
