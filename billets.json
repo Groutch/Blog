@@ -1,67 +1,22 @@
 {
-    "clients": [
+    "billets": [
         {
-            "firstName": "Groutch",
-            "name": "Keu",
-            "age": "31",
-            "imgsrc": "./images/lorddrakkon.jpg",
-            "profession": "Dev Web Full Stack",
-            "email": "groutch@live.fr",
-            "phone":"0606060606"
+            "author": "Groutch",
+            "date": "07/10/2017",
+            "title": "L'effet de l'onanisme des manchots sur l'avancée de la banquise",
+            "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin fermentum nisl, eget consequat risus iaculis et. Integer vel urna vel massa tincidunt maximus vel sit amet dolor. Sed pulvinar est est, feugiat fringilla lorem convallis id. Fusce nec libero libero. In enim ligula, sagittis quis nisi eu, placerat finibus elit. Nulla justo nulla, malesuada quis ante sed, auctor cursus diam. Curabitur posuere, arcu et hendrerit fringilla, magna libero tempor risus, et malesuada erat justo non tortor. Cras ut vulputate erat.</p><p>Quisque tempor purus massa, vitae efficitur diam tincidunt quis. Etiam gravida risus quis lorem dictum, non accumsan metus placerat. Morbi volutpat at lorem ut aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pulvinar risus a dolor aliquam faucibus. Vivamus at lectus et tellus auctor efficitur vel in ante. Aliquam sit amet arcu rutrum, laoreet leo et, hendrerit sapien.</p>"
         },
         {
-            "firstName": "Tommy",
-            "name": "Oliver",
-            "age": "25",
-            "imgsrc": "./images/greenranger.jpg",
-            "profession": "Power Ranger",
-            "email": "greenranger@rocks.com",
-            "phone":"555-456789"
+            "author": "Groutch",
+            "date": "08/11/2017",
+            "title": "L'apocalypse zombie, c'est pour quand?",
+            "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin fermentum nisl, eget consequat risus iaculis et. Integer vel urna vel massa tincidunt maximus vel sit amet dolor. Sed pulvinar est est, feugiat fringilla lorem convallis id. Fusce nec libero libero. In enim ligula, sagittis quis nisi eu, placerat finibus elit. Nulla justo nulla, malesuada quis ante sed, auctor cursus diam. Curabitur posuere, arcu et hendrerit fringilla, magna libero tempor risus, et malesuada erat justo non tortor. Cras ut vulputate erat.</p><p>Quisque tempor purus massa, vitae efficitur diam tincidunt quis. Etiam gravida risus quis lorem dictum, non accumsan metus placerat. Morbi volutpat at lorem ut aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pulvinar risus a dolor aliquam faucibus. Vivamus at lectus et tellus auctor efficitur vel in ante. Aliquam sit amet arcu rutrum, laoreet leo et, hendrerit sapien.</p>"
         },
         {
-            "firstName": "Trini",
-            "name": "Kwan",
-            "age": "20",
-            "imgsrc": "./images/yellowranger.jpg",
-            "profession": "Power Ranger",
-            "email": "yellowranger@ftw.com",
-            "phone":"555-456789"
-        },
-        {
-            "firstName": "Kimberly",
-            "name": "Hart",
-            "age": "20",
-            "imgsrc": "./images/pinkranger.jpg",
-            "profession": "Power Ranger",
-            "email": "pinkranger@isdabest.com",
-            "phone":"555-456789"
-        },
-        {
-            "firstName": "Jason",
-            "name": "Scott",
-            "age": "25",
-            "imgsrc": "./images/redranger.png",
-            "profession": "Power Ranger",
-            "email": "redranger@ftw.com",
-            "phone":"555-456789"
-        },
-        {
-            "firstName": "Zackary",
-            "name": "Taylor",
-            "age": "25",
-            "imgsrc": "./images/blackranger.png",
-            "profession": "Power Ranger",
-            "email": "blackranger@ftw.com",
-            "phone":"555-456789"
-        },
-        {
-            "firstName": "Billy",
-            "name": "Cranston",
-            "age": "25",
-            "imgsrc": "./images/blueranger.jpg",
-            "profession": "Power Ranger",
-            "email": "blueranger@ftw.com",
-            "phone":"555-456789"
+            "author": "Groutch",
+            "date": "09/12/2017",
+            "title": "La terrible vérité sur le ranger vert.",
+            "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin fermentum nisl, eget consequat risus iaculis et. Integer vel urna vel massa tincidunt maximus vel sit amet dolor. Sed pulvinar est est, feugiat fringilla lorem convallis id. Fusce nec libero libero. In enim ligula, sagittis quis nisi eu, placerat finibus elit. Nulla justo nulla, malesuada quis ante sed, auctor cursus diam. Curabitur posuere, arcu et hendrerit fringilla, magna libero tempor risus, et malesuada erat justo non tortor. Cras ut vulputate erat.</p><p>Quisque tempor purus massa, vitae efficitur diam tincidunt quis. Etiam gravida risus quis lorem dictum, non accumsan metus placerat. Morbi volutpat at lorem ut aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pulvinar risus a dolor aliquam faucibus. Vivamus at lectus et tellus auctor efficitur vel in ante. Aliquam sit amet arcu rutrum, laoreet leo et, hendrerit sapien.</p>"
         }
     ]
 }

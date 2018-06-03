@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleindex.css">
     <title>Another Blog in the Blogosphere</title>
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark d-flex justify-content-end">
 
-        <form class="form-inline" action="./login.html">
-            <button class="btn btn-dark" type="submit">Se connecter</button>
-        </form>
-        <form class="form-inline" action="./signin.html">
-            <button class="btn btn-dark" type="submit">S'enregistrer</button>
-        </form>
-        <form class="form-inline" action="./index.html">
-            <button class="btn btn-dark" type="submit" id="logout">Se déconnecter</button>
-        </form>
+<body>
+    <nav class="navbar navbar-dark bg-dark d-flex justify-content-between">
+        <div><a class="navbar-brand" href="#!">Groutch's Blog</a></div>
+        <div class="d-flex justify-content-right">
+            <form class="form-inline" action="./login.html">
+                <button class="btn btn-dark login" type="submit">Se connecter</button>
+            </form>
+            <form class="form-inline" action="./signin.html">
+                <button class="btn btn-dark signin" type="submit">S'enregistrer</button>
+            </form>
+            <form class="form-inline" action="./index.html">
+                <button class="btn btn-dark logout" type="submit" id="logout">Se déconnecter</button>
+            </form>
+        </div>
 
     </nav>
     <h1 class="text-center text-welcome">Bienvenue</h1>
-    <div class="container text-center">
+    <div class="container text-center artlist">
         <!-- Contenu du blog -->
-        
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

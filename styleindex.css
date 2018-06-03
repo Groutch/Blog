@@ -1,0 +1,16 @@
+.container{
+	width: 50%;
+	border-style: inset;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+
+object{
+    width:100%;
+    height: inherit;
+}
+
+.billet{
+    margin-bottom: 30px;
+    border-style: groove;
+}
