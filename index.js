@@ -8,7 +8,7 @@ $(document).ready(function () {
         $(".signin").hide();
         $(".logout").show();
         $(".addplus").show();
-    }else{
+    } else {
         $(".login").show();
         $(".signin").show();
         $(".logout").hide();
@@ -26,18 +26,27 @@ $(document).ready(function () {
             alert("Pas connecté");
         }
     }
-    // on charge la liste des billets
+    // on charge la liste des billets: soit depuis le fichier json
+    //soit de plutot depuis le localstorage s'il existe
+
     $.getJSON('billets.json', function (artlist) {
+        if (localStorage.getItem("storedartlist") == null) {
+            localStorage.setItem("storedartlist", JSON.stringify(artlist));
+        } else {
+            var localartlist = localStorage.getItem("storedartlist");
+        }
+        localartlist = JSON.parse(localartlist);
         $('.artlist').empty;
-        for (var i = 0; i < artlist.billets.length; i++) {
+        for (var i = 0; i < localartlist.billets.length; i++) {
             $('.artlist').append(`<div class="billet" id="art${i}">
-    <h3>${artlist.billets[i].title}</h3>
-    ${artlist.billets[i].body}
+    <h3>${localartlist.billets[i].title}</h3>
+    ${localartlist.billets[i].body}
     <footer class="text-right">
-        ${artlist.billets[i].author} - ${artlist.billets[i].date}
+        ${localartlist.billets[i].author} - ${localartlist.billets[i].date}
     </footer>
 </div>`);
         }
 
     });
+
 });
