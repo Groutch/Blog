@@ -1,0 +1,13 @@
+.container{
+	width: 500px;
+	border-style: inset;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+
+
+input:invalid+div:after {
+	position: absolute; content: '✖';
+	padding-left: 5px;
+	color: #8b0000;
+  }
