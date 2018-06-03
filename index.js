@@ -7,10 +7,12 @@ $(document).ready(function () {
         $(".login").hide();
         $(".signin").hide();
         $(".logout").show();
+        $(".addplus").show();
     }else{
         $(".login").show();
         $(".signin").show();
         $(".logout").hide();
+        $(".addplus").hide();
     }
     //Si on clique sur se déco, on se déco
     //on affiche le bouton pour se login/cache le bouton pour se logout

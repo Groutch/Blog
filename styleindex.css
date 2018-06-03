@@ -1,16 +1,44 @@
-.container{
-	width: 50%;
-	/border-style: inset;
-	padding-top: 10px;
-	padding-right: 25px;
-}
+.container {
+        /border-style: inset;
+        padding-top: 10px;
+        padding-right: 25px;
+        width: 80%;
+    }
 
-object{
-    width:100%;
+
+object {
+    width: 100%;
     height: inherit;
 }
 
-.billet{
+.billet {
     margin-bottom: 30px;
     border-style: groove;
+}
+
+.arrowup{
+    color: #e2e2e2;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 3em;
+    opacity: 50%;
+    position: fixed;
+    bottom:5px;
+    right: 5px;
+}
+.arrowup:hover{
+    color: #bababa;
+}
+
+.addplus{
+    color: #e2e2e2;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 3em;
+    opacity: 50%;
+    position: fixed;
+    bottom:5px;
+    right: 60px;
+}
+
+.addplus:hover{
+    color: #bababa;
 }
