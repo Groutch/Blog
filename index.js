@@ -16,4 +16,6 @@ $(document).ready(function () {
             alert("Pas connecté");
         }
     }
+    // on charge la liste des billets
+    
 });

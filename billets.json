@@ -1,0 +1,67 @@
+{
+    "clients": [
+        {
+            "firstName": "Groutch",
+            "name": "Keu",
+            "age": "31",
+            "imgsrc": "./images/lorddrakkon.jpg",
+            "profession": "Dev Web Full Stack",
+            "email": "groutch@live.fr",
+            "phone":"0606060606"
+        },
+        {
+            "firstName": "Tommy",
+            "name": "Oliver",
+            "age": "25",
+            "imgsrc": "./images/greenranger.jpg",
+            "profession": "Power Ranger",
+            "email": "greenranger@rocks.com",
+            "phone":"555-456789"
+        },
+        {
+            "firstName": "Trini",
+            "name": "Kwan",
+            "age": "20",
+            "imgsrc": "./images/yellowranger.jpg",
+            "profession": "Power Ranger",
+            "email": "yellowranger@ftw.com",
+            "phone":"555-456789"
+        },
+        {
+            "firstName": "Kimberly",
+            "name": "Hart",
+            "age": "20",
+            "imgsrc": "./images/pinkranger.jpg",
+            "profession": "Power Ranger",
+            "email": "pinkranger@isdabest.com",
+            "phone":"555-456789"
+        },
+        {
+            "firstName": "Jason",
+            "name": "Scott",
+            "age": "25",
+            "imgsrc": "./images/redranger.png",
+            "profession": "Power Ranger",
+            "email": "redranger@ftw.com",
+            "phone":"555-456789"
+        },
+        {
+            "firstName": "Zackary",
+            "name": "Taylor",
+            "age": "25",
+            "imgsrc": "./images/blackranger.png",
+            "profession": "Power Ranger",
+            "email": "blackranger@ftw.com",
+            "phone":"555-456789"
+        },
+        {
+            "firstName": "Billy",
+            "name": "Cranston",
+            "age": "25",
+            "imgsrc": "./images/blueranger.jpg",
+            "profession": "Power Ranger",
+            "email": "blueranger@ftw.com",
+            "phone":"555-456789"
+        }
+    ]
+}
